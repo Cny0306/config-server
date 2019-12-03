@@ -34,3 +34,9 @@ hystrix:
         requestVolumeThreshold: 5 #触发熔断的最小请求次数，默认20
         errorThresholdPercentage: 10 #触发熔断的失败请求最小占比，默认50%
         sleepWindowInMilliseconds: 5000 #熔断多少秒后去尝试请求，默认是5S
+spring:
+  rabbitmq:
+    host: 106.12.102.143
+    virtual-host: /cny
+    username: cny
+    password: cny
