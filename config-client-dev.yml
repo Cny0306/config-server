@@ -1,0 +1,2 @@
+config-client:
+  name: config-client-dev.yml
